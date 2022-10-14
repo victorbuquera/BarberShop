@@ -11,9 +11,11 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/BarberShop1.1/app/src/main/res/drawable/splash_bg.xml" value="0.22" />
         <entry key="..\:/Users/User/AndroidStudioProjects/BarberShop1.1/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.256640625" />
         <entry key="..\:/Users/User/AndroidStudioProjects/BarberShop1.1/app/src/main/res/layout-w936dp/activity_login.xml" value="0.21484375" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/BarberShop1.1/app/src/main/res/layout/activity_login.xml" value="0.2864583333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/BarberShop1.1/app/src/main/res/layout/activity_login.xml" value="0.33" />
         <entry key="..\:/Users/User/AndroidStudioProjects/BarberShop1.1/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/BarberShop1.1/app/src/main/res/layout/activity_register.xml" value="0.33" />
         <entry key="..\:/Users/User/AndroidStudioProjects/BarberShop1.1/app/src/main/res/layout/activity_splash.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/BarberShop1.1/app/src/main/res/layout/activity_user.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>

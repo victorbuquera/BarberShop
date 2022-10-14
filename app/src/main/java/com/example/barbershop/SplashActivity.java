@@ -15,9 +15,9 @@ public class SplashActivity extends AppCompatActivity {
         setContentView(R.layout.activity_splash);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         new Handler().postDelayed(() -> {
-            Intent intent = new Intent(SplashActivity.this,MainActivity.class);
+            Intent intent = new Intent(SplashActivity.this,LoginActivity.class);
             startActivity(intent);
             finish();
-        }, 4000);
+        }, 3000);
     }
 }
