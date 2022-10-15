@@ -49,8 +49,8 @@ public class Http {
 
     public void send() {
         try {
-            URL sURL = new URL(url);
-            HttpURLConnection connection = (HttpURLConnection) sURL.openConnection();
+            URL sUrl = new URL("http://192.168.0.102/api/register");
+            HttpURLConnection connection = (HttpURLConnection) sUrl.openConnection();
             connection.setRequestMethod(method);
             connection.setRequestProperty("Content-Type","application/json");
             connection.setRequestProperty("X-requested-With","XMLHttpRequest");
@@ -70,6 +70,7 @@ public class Http {
 
             InputStreamReader isr;
             if(statusCode >= 200 && statusCode <= 299){
+
                 isr = new InputStreamReader(connection.getInputStream());
             }else {
                 isr = new InputStreamReader(connection.getErrorStream());
