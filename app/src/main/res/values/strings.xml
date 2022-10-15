@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">BarberShop</string>
     <string name="logo">logo</string>
+    <string name="api_server">localhost/api</string>
 </resources>
