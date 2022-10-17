@@ -49,7 +49,7 @@ public class Http {
 
     public void send() {
         try {
-            URL sUrl = new URL("http://192.168.0.102/api/register");
+            URL sUrl = new URL(url);
             HttpURLConnection connection = (HttpURLConnection) sUrl.openConnection();
             connection.setRequestMethod(method);
             connection.setRequestProperty("Content-Type","application/json");
