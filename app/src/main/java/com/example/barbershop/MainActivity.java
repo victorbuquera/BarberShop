@@ -2,8 +2,9 @@ package com.example.barbershop;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
-import android.view.Window;
+import android.os.Handler;
 
 public class MainActivity extends AppCompatActivity {
 
