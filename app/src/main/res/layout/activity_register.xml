@@ -28,6 +28,7 @@
         android:layout_height="wrap_content"/>
     <EditText
         android:id="@+id/etConfirmation"
+        android:hint="Confirme sua senha"
         android:inputType="textPassword"
         android:layout_marginBottom="20dp"
         android:layout_width="match_parent"
