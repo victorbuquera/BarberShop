@@ -88,11 +88,10 @@ public class LoginActivity extends AppCompatActivity {
                         Integer code = http.getStatusCode();
                         if(code == 200){
                             try {
-                                JSONObject response = new JSONObject();
+                                JSONObject response = new JSONObject(http.getResponse());
                                 String token = response.getString("token");
                                 localStorage.setToken(token);
                                 Intent intent = new Intent(LoginActivity.this, MainActivity.class);
-                                Log.d("code", "run() returned: " + "ok");
                                 startActivity(intent);
                                 finish();
                             } catch (JSONException e) {
@@ -102,7 +101,7 @@ public class LoginActivity extends AppCompatActivity {
                         }
                         else if (code == 422){
                             try {
-                                JSONObject response = new JSONObject();
+                                JSONObject response = new JSONObject(http.getResponse());
                                 String msg = response.getString("message");
                                 alertFail(msg);
                                 Toast.makeText(LoginActivity.this, "error: "+msg, Toast.LENGTH_SHORT).show();
@@ -112,7 +111,7 @@ public class LoginActivity extends AppCompatActivity {
                         }
                         else if (code == 401){
                             try {
-                                JSONObject response = new JSONObject();
+                                JSONObject response = new JSONObject(http.getResponse());
                                 String msg = response.getString("message");
                                 alertFail(msg);
                             }catch (JSONException e){
