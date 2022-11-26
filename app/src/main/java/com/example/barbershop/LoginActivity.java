@@ -10,6 +10,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import org.json.JSONException;
@@ -19,6 +20,7 @@ public class LoginActivity extends AppCompatActivity {
     EditText etEmail, etPassword;
     Button btnLogin, btnRegister;
     String email, password;
+    TextView btnForgotPassword;
     LocalStorage localStorage;
 
     @Override
@@ -147,5 +149,9 @@ public class LoginActivity extends AppCompatActivity {
                     }
                 })
                 .show();
+    }
+
+    private void resetPassword(String password) {
+
     }
 }

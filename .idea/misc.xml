@@ -6,6 +6,9 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/BarberShop1.1/app/src/main/res/drawable/splash_bg.xml" value="0.22" />
         <entry key="..\:/Users/User/AndroidStudioProjects/BarberShop1.1/app/src/main/res/layout/activity_main.xml" value="0.35260416666666666" />
         <entry key="..\:/Users/User/AndroidStudioProjects/BarberShop1.1/app/src/main/res/layout/activity_splash.xml" value="0.25" />
+        <entry key="..\:/Users/User/Projetos/app/BarberShop/app/src/main/res/drawable/rounded_corner.xml" value="0.343" />
+        <entry key="..\:/Users/User/Projetos/app/BarberShop/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/Projetos/app/BarberShop/app/src/main/res/layout/activity_splash.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>
@@ -14,5 +17,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.36666666666666664" />
+      </ProjectState>
+    </option>
   </component>
 </project>
